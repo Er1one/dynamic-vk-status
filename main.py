@@ -14,7 +14,7 @@ def auth_handler():
     key = input("| Введите код 2fa авторизации: ")
 
     # Если: True - сохранить, False - не сохранять.
-    remember_device = True
+    remember_device = Truef
 
     return key, remember_device
 
